@@ -1,0 +1,103 @@
+div {
+    display: block;
+}
+
+nav {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.sticky-inline-navbar--shadow {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .04), 0 20px 20px 0 rgba(44, 50, 65, .04);
+}
+
+.sticky-inline-navbar--no-border {
+    border-top: none;
+}
+
+.sticky-inline-navbar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0;
+}
+
+.sticky-inline-navbar {
+    height: 128px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 57px;
+    left: 0;
+    right: 0;
+    z-index: 28;
+    background-color: #ffffff;
+    border-top: 1px solid #e8e8e8;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.sticky_div_center {
+    padding-top: 2px;
+    padding-left: 550px;
+    padding-right: 550px;
+    padding-bottom: 2px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.sticky_div_restrict {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 127px;
+    width: 1000px;
+    align-content: center;
+    position: relative;
+}
+
+.sticky_div_inline {
+    overflow-x: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: auto;
+    display: flex;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 125px;
+    width: 1000px;
+}
+
+.sticky_a {
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 300px;
+    height: 110px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.sticky_h2 {
+    padding-top: 18px;
+}
+
+.sticky_cursor {
+    color: #0064f9;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}

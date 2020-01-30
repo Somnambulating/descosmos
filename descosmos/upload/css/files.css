@@ -1,0 +1,73 @@
+.sticky-submit {
+    width: 260px;
+    height: 55px;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.section-upload {
+    opacity: 0.9;
+    width: 900px;
+    margin: 0px 200px 0px 200px;
+}
+
+article {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.item {
+    float: left;
+    position: relative;
+    margin: 5px;
+}
+
+.addImg {
+    width: 80px;
+    height: 80px;
+}
+
+.upload_input {
+    width: 200px;
+    display: none;
+}
+
+.preview {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: 0;
+}
+
+.click {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.delete {
+    position: absolute;
+    right: -2rem;
+    top: -1rem;
+    cursor: pointer;
+    display: none;
+}
+
+.preview img {
+    width: 100%;
+    height: 100%;
+}

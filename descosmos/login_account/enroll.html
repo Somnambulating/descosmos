@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="UTF-8">
+
+<head>
+    <title>Enroll Descosmos</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Latest Login Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+
+    <!-- style css files-->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/login.css" type="text/css" media="all" />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- web-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <!-- code-check js file-->
+    <script type="text/javascript" src="./js/checkCode.js"></script>
+
+</head>
+
+<body>
+    <div class="main-bg">
+        <!-- title -->
+        <h1>Descosmos</h1>
+        <!-- //title -->
+        <!-- content -->
+        <div class="sub-main-w3">
+            <div class="bg-content-w3pvt">
+                <div class="top-content-style">
+                    <img src="images/user.jpg" alt="" />
+                </div>
+
+                <form action="eroll.php" method="post" name="RegForm" onsubmit="return InputCheck(this)">
+                    <p class="legend">注册<span class="fa fa-hand-o-down"></span></p>
+
+                    <div class="input">
+                        <input type="text" placeholder="昵称" name="aName" required />
+                    </div>
+
+                    <div class="input">
+                        <input type="email" placeholder="邮箱" name="aEmail" required />
+                        <span class="fa fa-envelope"></span>
+                    </div>
+
+                    <div class="input">
+                        <input type="password" placeholder="密码" name="aPassword" required />
+                        <span class="fa fa-unlock"></span>
+                    </div>
+
+                    <div class="input">
+                        <input type="password" placeholder="确认密码" name="aPassword" required />
+                        <span class="fa fa-unlock"></span>
+                    </div>
+
+                    <div class="input">
+                        <!-- Generates checkCode when the position of mouse within input
+                            or click the code.
+                        -->
+                        <input type="text" onmouseup="createCode()" onmouseout="validate()" placeholder="code" id="checkCode" required />
+                        <a onload="createCode" onclick="createCode()" id="codeReturn" title="点击更换验证码">
+                            <p id="codeReturn">7E8G</p>
+                        </a>
+                        <span class="fa fa-envelope"></span>
+                    </div>
+
+                    <button type="submit" class="btn submit">
+						<span class="fa fa-sign-in"></span>
+					</button>
+                </form>
+
+                <a href="./login_account.html" class="bottom-text-w3ls">去登录</a>
+            </div>
+        </div>
+
+        <!-- copyright -->
+        <div class="copyright">
+            <h2>&copy; 返回主页
+                <a href="../descosmos.html" target="_blank">descosmos</a>
+            </h2>
+        </div>
+
+    </div>
+</body>
+
+</html>

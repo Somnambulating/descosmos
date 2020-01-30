@@ -1,0 +1,58 @@
+body {
+    color: #1a1a1a;
+    height: 100%;
+    margin: 0%;
+    background-color: #fff;
+}
+
+.auth-modal {
+    height: 10vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.auth-modal_photos {
+    padding-top: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.photos {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.photos_column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 1.15rem;
+}
+
+.photo-item {
+    position: relative;
+    display: block;
+    z-index: 0;
+}
+
+.photo-item--overlay:before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+    opacity: 0;
+    transition: opacity .2s;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    z-index: 1;
+}
+
+.photos__column>* {
+    margin-bottom: 1.15rem;
+}
